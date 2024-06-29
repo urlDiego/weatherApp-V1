@@ -75,6 +75,8 @@
                     weatherIcon.src = "assets/img/drizzle.png"
                 } else if (data.weather[0].main == "Mist") {
                     weatherIcon.src = "assets/img/mist.png"
+                } else if (data.weather[0].main == "Snow") {
+                    weatherIcon.src = "assets/img/snow.png"
                 }
 
                 document.querySelector(".weather").style.display = "block"
